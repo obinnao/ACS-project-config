@@ -2,8 +2,8 @@
 yum install -y nginx
 systemctl start nginx
 systemctl enable nginx
-git clone https://github.com/Livingstone95/ACS-project-config.git
-mv /ACS-project-config/reverse.conf /etc/nginx/
+git clone https://github.com/obinnao/ZXCLOUD-project-config.git
+mv /ZXCLOUD-project-config/reverse.conf /etc/nginx/
 mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf-distro
 cd /etc/nginx/
 touch nginx.conf
